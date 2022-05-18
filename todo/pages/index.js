@@ -3,7 +3,7 @@ import clientPromise from '../lib/mongodb'
 
 import "tailwindcss/tailwind.css";
 
-export default function Home( { isConnected } ) {
+export default function Home( { isConnected, todos } ) {
   return (
     <div className="container">
       <Head>
