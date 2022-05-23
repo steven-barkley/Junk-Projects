@@ -1,3 +1,6 @@
+# Animal Fun Facts
+Design an interactive app for children interested in sea creatures.
+
 # Autobiography
 Design a autobiographical website for myself.
 
