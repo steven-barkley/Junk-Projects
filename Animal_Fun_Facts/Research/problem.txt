@@ -1,1 +1,1 @@
-Design a single page Animal Facts application for youth aged four to twelve.
+Design an interactive app for children interested in sea creatures.
