@@ -9,3 +9,4 @@ console.log( numOfSlices );
 let changeMe = true;
 console.log( changeMe );
 changeMe = false;
+console.log( changeMe );
