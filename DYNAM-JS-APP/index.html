@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Functions</title>
+</head>
+        <body>
+        
+            <h2>My First JavaScript</h2>
+            <!--type onclick getElemetById document innerHtml = Date() string name "demo"
+            paragraph tag
+
+            Forgot : button tag, button text, p and id within p tag-->
+            
+            <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+                Display the time and date. 
+            </button>
+
+            <p id="demo">
+                
+            </p>
+
+            <h3>Changing the display in JavaScript</h3>
+
+            <button type="button" onclick="document.getElementById('test').innerHTML= 'Cool, JavaScript is dynamic!'">
+                Change text 
+            </button>
+
+            <p id="test">JavaScript controls behavior on webpages!</p>
+            <!--
+            Two buttons, two images, toggle between two images on a webpage 
+            Download lightbulb image
+            -->
+            <h3>Turn the lightbulb off and on.</h3>
+
+            <button type="button" onclick="document.getElementById('lighttoggle').src='light-bulboff.png'">
+                OFF
+            </button>
+
+            <img id="lighttoggle" src="light-bulboff.png" style="width:150px">
+
+            <button type="button" onclick="document.getElementById('lighttoggle').src='light-bulb.png'">
+                ON
+            </button>
+
+            <h3>More fun with JavaScript</h3>
+
+            <button type="button" onclick="document.getElementById('enlarged').style.fontSize='35px'">
+                Bigger text
+            </button>
+            The follow text will be enlarged.
+            <p id=enlarged>Small to Big</p>
+
+            <button type="button" onclick="document.getElementById('invisible').style.display='none'">
+                Vanishing text 
+            </button>
+            <p id=invisible>Now you see me.....</p>
+
+            <script src="function.js"></script>
+
+            <script>document.write("<h4>Creating html header displays within Javascript.");</script>
+
+            <script>document.write(player);</script>    
+        </body>
+</html>

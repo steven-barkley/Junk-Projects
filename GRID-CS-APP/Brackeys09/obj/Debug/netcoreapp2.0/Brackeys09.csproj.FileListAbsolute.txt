@@ -1,0 +1,10 @@
+c:\users\steven_barkley\lc101\repos\Brackeys09\Brackeys09\bin\Debug\netcoreapp2.0\Brackeys09.deps.json
+c:\users\steven_barkley\lc101\repos\Brackeys09\Brackeys09\bin\Debug\netcoreapp2.0\Brackeys09.runtimeconfig.json
+c:\users\steven_barkley\lc101\repos\Brackeys09\Brackeys09\bin\Debug\netcoreapp2.0\Brackeys09.runtimeconfig.dev.json
+c:\users\steven_barkley\lc101\repos\Brackeys09\Brackeys09\bin\Debug\netcoreapp2.0\Brackeys09.dll
+c:\users\steven_barkley\lc101\repos\Brackeys09\Brackeys09\bin\Debug\netcoreapp2.0\Brackeys09.pdb
+c:\users\steven_barkley\lc101\repos\Brackeys09\Brackeys09\obj\Debug\netcoreapp2.0\Brackeys09.csproj.CoreCompileInputs.cache
+c:\users\steven_barkley\lc101\repos\Brackeys09\Brackeys09\obj\Debug\netcoreapp2.0\Brackeys09.AssemblyInfoInputs.cache
+c:\users\steven_barkley\lc101\repos\Brackeys09\Brackeys09\obj\Debug\netcoreapp2.0\Brackeys09.AssemblyInfo.cs
+c:\users\steven_barkley\lc101\repos\Brackeys09\Brackeys09\obj\Debug\netcoreapp2.0\Brackeys09.dll
+c:\users\steven_barkley\lc101\repos\Brackeys09\Brackeys09\obj\Debug\netcoreapp2.0\Brackeys09.pdb

@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{BEFCBAAE-CF7D-47E6-BBA0-AFD00D1CBA15}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Brackeys05/Class1.cs">
+    <Files>
+      <File FileName="Brackeys05/Class1.cs" Line="1" Column="1" />
+      <File FileName="Brackeys05/Program.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Brackeys05 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

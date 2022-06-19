@@ -1,0 +1,11 @@
+c:\users\steven_barkley\lc101\repos\Brackeys010\Brackeys010\bin\Debug\netcoreapp2.0\Brackeys010.deps.json
+c:\users\steven_barkley\lc101\repos\Brackeys010\Brackeys010\bin\Debug\netcoreapp2.0\Brackeys010.runtimeconfig.json
+c:\users\steven_barkley\lc101\repos\Brackeys010\Brackeys010\bin\Debug\netcoreapp2.0\Brackeys010.runtimeconfig.dev.json
+c:\users\steven_barkley\lc101\repos\Brackeys010\Brackeys010\bin\Debug\netcoreapp2.0\Brackeys010.dll
+c:\users\steven_barkley\lc101\repos\Brackeys010\Brackeys010\bin\Debug\netcoreapp2.0\Brackeys010.pdb
+c:\users\steven_barkley\lc101\repos\Brackeys010\Brackeys010\obj\Debug\netcoreapp2.0\Brackeys010.csproj.CoreCompileInputs.cache
+c:\users\steven_barkley\lc101\repos\Brackeys010\Brackeys010\obj\Debug\netcoreapp2.0\Brackeys010.AssemblyInfoInputs.cache
+c:\users\steven_barkley\lc101\repos\Brackeys010\Brackeys010\obj\Debug\netcoreapp2.0\Brackeys010.AssemblyInfo.cs
+c:\users\steven_barkley\lc101\repos\Brackeys010\Brackeys010\obj\Debug\netcoreapp2.0\Brackeys010.dll
+c:\users\steven_barkley\lc101\repos\Brackeys010\Brackeys010\obj\Debug\netcoreapp2.0\Brackeys010.pdb
+c:\users\steven_barkley\lc101\repos\Brackeys010\Brackeys010\obj\Debug\netcoreapp2.0\Brackeys010.csprojResolveAssemblyReference.cache

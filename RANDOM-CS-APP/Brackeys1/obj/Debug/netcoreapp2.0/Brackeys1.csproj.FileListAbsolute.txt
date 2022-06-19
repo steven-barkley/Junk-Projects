@@ -1,0 +1,11 @@
+C:\Users\Steven_Barkley\lc101\repos\Brackeys1\Brackeys1\bin\Debug\netcoreapp2.0\Brackeys1.deps.json
+C:\Users\Steven_Barkley\lc101\repos\Brackeys1\Brackeys1\bin\Debug\netcoreapp2.0\Brackeys1.runtimeconfig.json
+C:\Users\Steven_Barkley\lc101\repos\Brackeys1\Brackeys1\bin\Debug\netcoreapp2.0\Brackeys1.runtimeconfig.dev.json
+C:\Users\Steven_Barkley\lc101\repos\Brackeys1\Brackeys1\bin\Debug\netcoreapp2.0\Brackeys1.dll
+C:\Users\Steven_Barkley\lc101\repos\Brackeys1\Brackeys1\bin\Debug\netcoreapp2.0\Brackeys1.pdb
+C:\Users\Steven_Barkley\lc101\repos\Brackeys1\Brackeys1\obj\Debug\netcoreapp2.0\Brackeys1.csprojResolveAssemblyReference.cache
+C:\Users\Steven_Barkley\lc101\repos\Brackeys1\Brackeys1\obj\Debug\netcoreapp2.0\Brackeys1.csproj.CoreCompileInputs.cache
+C:\Users\Steven_Barkley\lc101\repos\Brackeys1\Brackeys1\obj\Debug\netcoreapp2.0\Brackeys1.AssemblyInfoInputs.cache
+C:\Users\Steven_Barkley\lc101\repos\Brackeys1\Brackeys1\obj\Debug\netcoreapp2.0\Brackeys1.AssemblyInfo.cs
+C:\Users\Steven_Barkley\lc101\repos\Brackeys1\Brackeys1\obj\Debug\netcoreapp2.0\Brackeys1.dll
+C:\Users\Steven_Barkley\lc101\repos\Brackeys1\Brackeys1\obj\Debug\netcoreapp2.0\Brackeys1.pdb
