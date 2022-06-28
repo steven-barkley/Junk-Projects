@@ -1,0 +1,31 @@
+Phase 1
+
+Planning
+
+Customer - Self
+
+    Idea - Create an intelligent menu for use in the hospitality industry
+
+    Funding - Zero dollars
+
+Product Owner - Self 
+
+    Coordinate the development of an intelligent Menu System in 90 days that meets or exceeds:
+
+Planning Requirements
+
+    Register User/ Server [Meets]
+    Login User/ Server [Meets]
+
+    Store Data of User/Server experience [Meets]
+    Filter Menu Items based on user diet [Meets]
+
+    Display Menu Items in 2D or 3D [Meets]
+    Purchase Menu Items via application [Meets]
+
+    Send custom orders [Exceeds]
+    Order Menu Items by voice command [Exceeds]
+    
+    Mobile aspects [Exceeds]
+    Send messages from Mobile Device to IOS watch [Exceeds]
+    Translate Menu Items into chosen language [Exceeds]

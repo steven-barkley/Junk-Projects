@@ -1,0 +1,34 @@
+* {
+	outline: 20px solid white !important;
+}
+* {	
+	-webkit -box-sizing: border-box;
+	-moz -box-sizing: border-box;
+	-ms -box-sizing: border-box;
+	box-sizing: border-box;
+}
+.image {
+	max-width: 460px;
+}
+.description {
+	max-width: 705px;
+	font-size: 25px;
+	color: gray;
+	line-height: 48pt;
+	font-family: Times;
+	font-weight: 700;	
+}
+.app {
+    display: -webkit-flex;
+    display: flex;
+}.title {
+	background: #33BEBE;
+	color: white;
+	font-family: 'Segoe UI', Tahoma, sans-serif;
+	font-size: 50px;
+	max-width: 1095px;
+	margin-bottom: 20px;
+	text-align: left;
+	text-transform: uppercase;
+	background-size: 50% 50%;
+}

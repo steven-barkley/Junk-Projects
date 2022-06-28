@@ -1,0 +1,65 @@
+
+Menuqu – helping business provide signature hospitality
+
+Who: My name is Steven Reginald Barkley. I am from Quincy, Florida. 
+I am All-American love opportunity and education. I believe that computer 
+technology has the greatest potential to provide innovations in opportunity
+and educational accessiblity. Currently, I am seeking an entry level opportunity 
+in the software development field after completing my education from 
+Launchcode. I am an entry-level software developer with a big passion for food
+and technology. 
+
+What:
+
+Menuqu is the name of my final project that I completed as 
+part of my required coursework for LaunchCode CodeCamp. Instead of saving the Demonstration until
+the end of the presentation I will demonstrate it now. 
+
+[Show T-Shirt, Show Menuqu] 
+
+When: 
+
+Menuqu is an idea I initially had exactly a year ago I was working as an office employee. 
+I read about Augmented reality and played with application of the technology but didn't have the know how to create my own application. 
+Thanks to self-study and Launchcode I was able to create my own simple AR application. 
+
+How: 
+
+This application is possible thanks to several tools: Visual Studio Community, Vuforia and Unity3D
+The primarily language used to script this simple application was C#.
+
+Future development cycle: Photogrammetry, Gauge Market, Speak to 10 to 20 restuarant owners in Miami-Dade. 
+Speak to 10 to 20 Hospitality providers in Miami-Date. 
+
+Show/Tell source code
+
+Where: Currently the food data object persist in the application itself as object. 
+However, if and when I can develop a go to market strategy for a viable product. 
+The food data will persist on a database called SketchFab. 
+SketchFab uses WEBGL to host 3D data in the Cloud and also makes those files easily sharable on social media and websites.
+
+Why: Hospitality services need to be universally accessible. 
+AR allows mulitple on the spot data visualization channels to be accessed on the fly from any smart phone device. 
+Customers in a greater number than ever want their customer preferences to be preserved where they recieve hospitality. 
+A well planned application could increase: Customer retention, loyality, experience and purchase confidence. 
+
+About us
+Menuqu is an outsourced sales and marketing company based in Miami, Florida. 
+We use social network marketing techniques as it allows us to engage with 
+our clients’ customers where they are. We know that consumers want the most 
+data possible when purchasing a hospitality service, and that’s why our software 
+tend to the needs of each customer individually. We believe that building customer 
+relationships is just as important as  food or service sales. Menuqu, not only 
+guarantees immediate results and a high return on investment, but we ensure your 
+customers get the best data visualization possible. Menuqu is committed to 
+providing its clients with innovative campaigns that are adapted to suit a 
+specified target audience, and achieve your goals. Our networked social media 
+marketing methods allow us to generate measurable and immediate results for our 
+clients, so whatever your budget, we’ve got a campaign for you!
+
+Technology Skills and Tools that make this possible: 
+
+SketchFab
+WebGL, Unity,  AppleARKIT, Xcode, Vuforia, RealityCapture, 
+Social Media ( Facebook, Twitter, etc),  
+C#, .NET CORE and Entity Framework. 

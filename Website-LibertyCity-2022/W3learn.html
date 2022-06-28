@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="W3learn.css">
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+
+<body>
+    <h1 style="font-size: 55px;">W3schools learn HTML, CSS and Javascript</h1>
+    <h2 id="demo7">ECMAscript W3 schools 04/01/2022</h2>
+    <div class="center">
+        <button type="button" onClick="myFunction()">
+            Click to change the above title.
+        </button>
+    </div>
+    <!-- Here is where the button is created and actions defined and passed to the HTNL ID-->
+    <div class="center">
+        <button type="button" onclick="pageSubheader.innerHTML = Date()">
+            Click here the current date and time will show.
+        </button>
+    </div>
+    <!-- Below is ID where the dynamic Javascript will show-->
+    <p id="demo"></p>
+    <h2>Exercise:</h2>
+    <p>Create a variable called <b>carName</b> and assign the value <strong>Volvo</strong> to it.</p>
+    <form>
+        <!--carname-->
+        <label> var =</label>
+        <input type="text" id="text" name="text" value="type variable name">
+        <!--StringValue -->
+        <label> = "</label>
+        <input type="text" id="text" name="text" value="type string name">
+        ";
+    </form>
+    <h2>What can Javascript do?</h2>
+    <p id="demo2">Javascript can change HTML content</p>
+    <div class="center">
+        <button type="button" onclick='document.getElementById("demo2").innerHTML = 
+        "Javascript is Dynamic!"'>Click me!</button>
+    </div>
+    <p id="demo3"> JavaScript can change the style of an HTML element.</p>
+    <div class="center">
+        <button type="button" onclick="document.getElementById('demo3').style.fontSize=
+        '35px'"> Click to enlarge font to 35 pixels.</button>
+    </div>
+    <br>
+    <p id="demo4"> JavaScript can hide HTML elements</p>
+    <div class="center">
+        <button type="button" onclick="document.getElementById('demo4').style.display =
+         'none'">Click to hide above title</button>
+    </div>
+    <p id="demo5" style="display:none">JavaScript can show hidden elements too!</p>
+    <div class="center">
+        <button type="button" onclick="document.getElementById('demo5').style.display=
+        'block'">Click to show above title</button>
+    </div>
+    <h3 id="demo6"></h3>
+    <div class="center">
+        <button onclick="myScript()">Reveal tip</button>
+    </div>
+    <div id="flag">Use functions to represent your creativity.</div>
+    <div class="center">
+        <button onclick="myFlag()">Click to change from <strong><q>The above sentence</q>to <q>Or to develop your
+                    algorithmic solution</q></strong></button>
+    </div>
+    <p id="tip"></p>
+    <!-- Be sure to place the id or class before the script executes-->
+    <p id="test">Start with X</p>
+    <div class="center">
+        <button onclick="getElementById('test').innerHTML = 'End with Z'" type="button">Press to Update</button>
+    </div>
+    <p class='Math'>Test</p>
+    <div class="center">
+        <button onclick="getElementsByClassNames('Math').innerHTML =
+            'Boolean equates to true or false'" type="button">
+            Math Boolean
+        </button>
+    </div>
+    <h2>JavaScript Booleans</h2>
+    <p id="boole"></p>
+    <h2>JavaScript Math.PI</h2>
+    <p>Math.PI returns the ratio of a circle's circumference to its diameter:</p>
+    <p id="demoPI"></p>
+    <h2>JavaScript Math.sqrt</h2>
+    <p>The square root of 81 is ??</p>
+    <p id="squareRootOfNine"></p>
+    <h1 id="heading" style="color:blue"></h1>
+    <h2 id="date" style="text-align:center"></h2>
+    <h2>JavaScript Manual Iteration</h2>
+    <pre>The code below produces the same result</pre>
+    <p id="demoLoop"></p>
+
+    <code>
+            const cars = [ "BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi" ];<br>
+
+                text += cars[ 0 ] + "<br>";
+                text += cars[ 1 ] + "<br>";
+                text += cars[ 2 ] + "<br>";
+                text += cars[ 3 ] + "<br>";
+                text += cars[ 4 ] + "<br>";
+                text += cars[ 5 ] + "<br>";
+        </code>
+    <hr>
+    <h2>JavaScript Automatic Iteration</h2>
+    <pre>The <strong>"for"</strong> method produces the same result via iteration</pre>
+    <code>
+            let text = "";
+            for ( let i = 0; i < cars.length; i++ ) {
+                text += cars[ i ] + "<br>";
+            }
+
+            document.getElementById( "demo" ).innerHTML = text;
+      </code>
+    <hr>
+
+    <script>
+        const cars = [ "BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi" ];
+
+        text += cars[ 0 ] + "<br>";
+        text += cars[ 1 ] + "<br>";
+        text += cars[ 2 ] + "<br>";
+        text += cars[ 3 ] + "<br>";
+        text += cars[ 4 ] + "<br>";
+        text += cars[ 5 ] + "<br>";
+
+        let text = "";
+        for ( let i = 0; i < cars.length; i++ ) {
+            text += cars[ i ] + "<br>";
+        }
+
+        document.getElementById( "demoLoop" ).innerHTML = text;
+        const pageTitle = document.getElementById( "demo7" )
+        const pageSubheader = document.getElementById( 'demo' )
+        function myScript() {
+            document.getElementById( "tip" ).innerHTML =
+                "Placing script tags in the body improves display speed";
+        }
+        function myFunction() {
+            pageTitle.innerHTML = "Javascript W3 schools 04/01/2022";
+        }
+        function myFlag() {
+            document.getElementById( "flag" ).innerHTML = "Test"
+        }
+        document.getElementById( "demo6" ).innerHTML =
+            "This title Inserted via ID from 'script' tag";
+        document.getElementById( "boole" ).innerHTML =
+            "100 is " + Boolean( 100 ) + "<br>" +
+            "3.14 is equal to Math.PI " + Boolean( 3.14 == Math.PI ) + "<br>" +
+            "-15 is greater than 4 " + Boolean( -15 > 4 ) + "<br>" +
+            "Any (not empty) string is " + Boolean( "Hello" > "Goodbye" ) + "<br>" +
+            "Even the string 'false' is " + Boolean( 'false' ) + "<br>" +
+            "Any expression (except zero) is " + Boolean( 1 + 7 + 3.14 );
+        document.getElementById( "heading" ).innerHTML = "Today's Date is"
+        document.getElementById( "date" ).innerHTML = ": " + new Date();
+        document.getElementById( "squareRootOfNine" ).innerHTML = Math.sqrt( 81 );
+        document.getElementById( "demoPI" ).innerHTML = Math.PI;
+        document.getElementsByTagName( "button" )[ 0 ].addEventListener( "mouseover", myUpdate().innerHTML ) = "End with Y";      
+    </script>
+</body>
+
+</html>
