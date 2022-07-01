@@ -23,6 +23,8 @@
        background-color: rgb(198, 239, 253);
        font-family: 'Montserrat', sans-serif;
        justify-content: center;
+       align-items: center;
+       margin-top: 250px;
    }
 
    .card-image {
