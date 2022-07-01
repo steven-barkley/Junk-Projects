@@ -19,12 +19,24 @@
        padding-top: 15px;
    }
 
+   /*
    body {
        background-color: rgb(198, 239, 253);
        font-family: 'Montserrat', sans-serif;
        justify-content: center;
        align-items: center;
        margin-top: 150px;
+   }
+*/
+   body {
+       background-color: rgb(198, 239, 253);
+       font-family: 'Montserrat', sans-serif;
+
+       min-height: 100vh;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
    }
 
    .card-image {
