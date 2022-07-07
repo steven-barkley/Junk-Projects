@@ -57,10 +57,12 @@
         overflow: hidden;
     }
 
+    label,
     li {
         float: left;
     }
 
+    label,
     li {
         color: hsl(217, 12%, 63%);
         display: block;
@@ -73,10 +75,12 @@
         max-width: max-content;
     }
 
+    label:hover,
     li:hover {
         background-color: hsl(25, 97%, 53%);
     }
 
+    label:active,
     li:active {
         background-color: hsl(217, 12%, 63%);
         color: hsl(0, 0%, 100%);
