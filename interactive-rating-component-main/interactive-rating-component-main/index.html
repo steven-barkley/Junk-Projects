@@ -79,8 +79,14 @@
 
   <script>
     function myHideFunction() {
+      /*
       document.getElementById( "toe" ).style.visibility = "hidden";
       document.getElementById( "finger" ).style.visibility = "visible";
+      */
+      document.getElementById( "toe" ).style.visibility = "hidden";
+      document.getElementById( "toe" ).style.display = "flex";
+      document.getElementById( "finger" ).style.visibility = "visible";
+      document.getElementById( "finger" ).style.display = "inline";
     }
   </script>
 
