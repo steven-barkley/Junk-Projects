@@ -5,7 +5,8 @@
 body {
     margin: 0;
     font-family: sans-serif;
-    background: #f5f6f7;
+    background-image: "";
+    background: lightgray;
 }
 
 .header {
@@ -23,15 +24,15 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    gap: 32px;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 20px 10px;
+    padding: 50px;
 }
 
 .gallery img {
     width: 100%;
-    max-width: 350px;
+    max-width: 400px;
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
