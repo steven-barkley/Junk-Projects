@@ -5,8 +5,8 @@
 body {
     margin: 0;
     font-family: sans-serif;
-    background-image: "";
-    background: lightgray;
+    background-image: url(../images/3DCubeGlassCubes.jpg);
+    background-color: rgb(76, 54, 199);
 }
 
 .header {
