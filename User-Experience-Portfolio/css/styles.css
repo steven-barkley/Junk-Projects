@@ -37,12 +37,20 @@ body {
     border-radius: 10px;
 }
 
+.gallery .card {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 .gallery::after {
     content: "";
     width: 350px;
 }
 
-.left {
+.card {
     float: left;
     padding-right: 30px;
     border-radius: 10px 0px 0px 10px;
@@ -77,4 +85,13 @@ body {
 .card img {
     width: 100%;
     margin: 0 auto;
+}
+
+.hide {
+    display: none;
+}
+
+.triggerDIV:hover+.hide {
+    display: inline-block;
+    color: black;
 }
