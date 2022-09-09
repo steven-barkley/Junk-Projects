@@ -5,8 +5,7 @@
 body {
     margin: 0;
     font-family: sans-serif;
-    background-image: url(../images/3DCubeGlassCubes.jpg);
-    background-color: rgb(76, 54, 199);
+    background-color: #fdb347;
 }
 
 .header {
@@ -41,4 +40,41 @@ body {
 .gallery::after {
     content: "";
     width: 350px;
+}
+
+.left {
+    float: left;
+    padding-right: 30px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.right {
+    padding: 2px 16px;
+    height: 496px;
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+    max-width: 550px;
+    min-width: 550px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 20%;
+    margin: auto;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 2px 16px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.card img {
+    width: 100%;
+    margin: 0 auto;
 }
