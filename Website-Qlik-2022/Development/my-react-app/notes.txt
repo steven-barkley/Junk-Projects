@@ -1,0 +1,43 @@
+REACT NOTES
+
+REACT ES6
+
+ES6 Classes
+
+A class is a type of function, but instead of using the keyword function to initiate it, 
+we use the keyword class, and the properties are assigned inside a constructor() method.
+
+class Car {
+    constructor(name) {
+        this.brand = name;
+    }
+}
+
+Next we can create object with the "Car" class:
+
+class Car {
+    constructor(name) {
+        this.brand = name;
+    }
+     present() {
+    return 'I have a ' + this.brand;
+  }
+}
+
+const myCar = new Car("Ford");
+
+Class Inheritance
+
+To create a class Inheritance, use the "extends" keyword
+
+class Model extends Car {
+    constructor(name, mod) {
+        super(name);
+        this.model = mod;
+    }
+    show() {
+        return this.present() + ', it is a ' + this.model
+    }
+}
+const myCarMakeModel = new Model("Ford", "Mustang");
+myCarMakeModel.show();

@@ -1,0 +1,92 @@
+body div h1 {
+  text-align: center;
+}
+
+html,
+body {
+  background-color: #cccdce;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+li.a {
+  list-style-type: none;
+  text-align: center;
+  font-size: 20px;
+}
+
+.aboutimg {
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  float: center;
+}
+
+.header {
+  background-color: #fff;
+  height: 140px;
+  text-align: center;
+}
+
+.header h1 {
+  color: #31363d;
+  font-size: 32px;
+  margin: 0;
+  position: relative;
+  text-transform: uppercase;
+  top: 44px;
+}
+
+ol {
+  list-style: upper-roman;
+}
+
+ol:first-child {
+  padding: 0 0 0 30px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: black;
+  text-align: right;
+  text-decoration: none
+}
+
+.nav ul {
+  margin: 0 0 30px;
+  text-align: center;
+}
+
+.nav li {
+  -webkit-transition: color 0.25s;
+  transition: color 0.25s;
+  display: inline-block;
+  color: white;
+  text-transform: uppercase;
+  margin-right: 10px;
+  margin-left: 10px;
+  position: relative;
+  top: 14px;
+}
+
+.nav li:hover {
+  color: #31363d;
+  cursor: pointer;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+}
+
+.row {
+  margin-top: 30px;
+}
+
+footer {
+  text-align: right;
+  padding: 0 50px 0 0;
+}

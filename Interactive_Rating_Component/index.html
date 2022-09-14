@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link href="style.css" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+
+<body>
+
+  <!-- Rating state start -->
+  <main id="toe" class="card">
+    <ul>
+      <li><img src="images/icon-star.svg" alt="star" /></li>
+    </ul>
+    <h2>How did we do?</h2>
+
+    <p>Please let us know how we did with your support request. All feedback is appreciated
+      to help us improve our offering!</p>
+
+    <form>
+      <input type="radio" id="1" name="rating_value" value="1">
+      <label for="1">1</label>
+      <input type="radio" id="2" name="rating_value" value="2">
+      <label for="2">2</label>
+      <input type="radio" id="3" name="rating_value" value="3">
+      <label for="3">3</label>
+      <input type="radio" id="4" name="rating_value" value="4">
+      <label for="4">4</label>
+      <input type="radio" id="5" name="rating_value" value="5">
+      <label for="5">5</label>
+    </form>
+
+    <button class="button" type="button" onclick="myHideFunction()">SUBMIT</button>
+    <!-- On button click hide Card 1 and Unhide Card 2-->
+  </main>
+
+  <section id="finger" class="card2">
+    <!-- Rating state end -->
+    <img src="images/illustration-thank-you.svg" alt="mobile phone" width="30%" />
+    <!-- Thank you state start -->
+
+    <aside>
+      <p id="myRating">You selected
+        <!-- Add rating here -->
+        out of 5
+      </p>
+    </aside>
+
+    <h3>Thank you!</h3>
+
+    <p>We appreciate you taking the time to give a rating. If you ever need more support,
+      don't hesitate to get in touch!</p>
+
+
+    <!-- Thank you state end -->
+  </section>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Steven Barkley</a>.
+  </footer>
+
+  <script>
+    function myHideFunction() {
+      /*
+      Todos 
+      1. Create a Rule when a radio button is clicked it changes color
+      2. Create a Rule when a radio button is hovered it changes color
+      3. Create a Rule which "gets" the clicked radio button value
+      4. Create a Rule which "post" the clicked radio button value on the new card
+      */
+      document.getElementById( "toe" ).style.visibility = "hidden";
+      document.getElementById( "toe" ).style.display = "flex";
+      document.getElementById( "finger" ).style.visibility = "visible";
+      document.getElementById( "finger" ).style.display = "inline";
+    }
+  </script>
+
+</body>
+
+</html>

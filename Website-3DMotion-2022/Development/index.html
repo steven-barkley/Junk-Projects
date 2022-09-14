@@ -1,0 +1,125 @@
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <title>D3.JS Learn</title> If uncommented runs last-->
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+
+<body>
+  <h2 class="centerText stylized">D3.js is Easy to Use</h2>
+  <p class="centerText">The script below selects the body element and appends a paragraph with the text "Hello D3.JS":
+  </p>
+
+  <script>
+    // D3 "calls 3D library" .select "body => element" .text "Insert text values" 
+    d3.select( "body" ).append( "p" ).text( "Hello D3.JS!" );
+    d3.select( "head" ).append( "title" ).text( "Let's Learn D3.JS" );
+  </script>
+
+  <h2 class="centerText stylized">Below is an three.js example</h2>
+  <!--
+  <p class="centerText">It was a dark and stormy night...</p>
+  <p class="centerText">Steven a solitary coder was typing away..</p>
+  <p class="centerText">Line by line he played the keyboard</p>
+  <p class="centerText">Again and again he rhymed paragraphs upon paragraphs</p>
+-->
+
+  <script src="three.js"></script>
+  <script>
+    // Our Javascript will go here.
+
+    // Adding Scene 
+    var scene = new THREE.Scene();
+    // Adding Camera type
+    var camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 0.1, 2000 );
+    // Adding Renderer
+    var renderer = new THREE.WebGLRenderer();
+    renderer.setSize( window.innerWidth, window.innerHeight );
+    document.body.appendChild( renderer.domElement );
+
+    // Our Object will go here 
+
+    var geometry = new THREE.BoxGeometry( 1, 1, 1 );
+    var material = new THREE.MeshBasicMaterial( { color: 0xff0000 } );
+    var cube = new THREE.Mesh( geometry, material );
+
+    // Adding cube object to scene
+    scene.add( cube );
+
+    // Set camera position relative to obeject
+    camera.position.z = 5;
+
+    // Animate loop added
+    function animate() {
+      requestAnimationFrame( animate );
+      cube.rotation.x += 0.01;
+      cube.rotation.y += 0.01;
+      renderer.render( scene, camera );
+    }
+    animate();
+  </script>
+
+  <h2 class="centerText stylized">D3.js Scatter-Plot</h2>
+
+  <svg id="myPlot" style="width:500px;height:500px"></svg>
+
+  <script>
+    // Set Dimensions
+    const xSize = 500;
+    const ySize = 500;
+    const margin = 40;
+    const xMax = xSize - margin * 2;
+    const yMax = ySize - margin * 2;
+
+    // Create Random Points
+    const numPoints = 100;
+    const data = [];
+    for ( let i = 0; i < numPoints; i++ ) {
+      data.push( [ Math.random() * xMax, Math.random() * yMax ] );
+    }
+
+    // Append SVG Object to the Page
+    const svg = d3.select( "#myPlot" )
+      .append( "svg" )
+      .append( "g" )
+      .attr( "transform", "translate(" + margin + "," + margin + ")" );
+
+    // X Axis
+    const x = d3.scaleLinear()
+      .domain( [ 0, 500 ] )
+      .range( [ 0, xMax ] );
+
+    svg.append( "g" )
+      .attr( "transform", "translate(0," + yMax + ")" )
+      .call( d3.axisBottom( x ) );
+
+    // Y Axis
+    const y = d3.scaleLinear()
+      .domain( [ 0, 500 ] )
+      .range( [ yMax, 0 ] );
+
+    svg.append( "g" )
+      .call( d3.axisLeft( y ) );
+
+    // Dots
+    svg.append( 'g' )
+      .selectAll( "dot" )
+      .data( data ).enter()
+      .append( "circle" )
+      .attr( "cx", function ( d ) { return d[ 0 ] } )
+      .attr( "cy", function ( d ) { return d[ 1 ] } )
+      .attr( "r", 3 )
+      .style( "fill", "Red" );
+  </script>
+
+
+</body>
+
+</html>

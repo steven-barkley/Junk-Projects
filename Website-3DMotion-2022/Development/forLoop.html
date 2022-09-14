@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>JavaScript Loops</h2>
+
+    <p> The following paragraph is the result of X = 0; initialization,
+        x /> 7 range and a skip of x++ or x+1.
+    </p>
+    <br>
+    <p id="demo"></p>
+    <script>
+        let x;
+        let text = new String;
+
+        for ( x = 0; x < 7; x++ ) {
+            text += "The number is " + x + "<br>"
+        }
+
+        document.getElementById( "demo" ).innerHTML = text;
+    </script>
+    <br>
+    <h2>JavaScript For In Loop</h2>
+
+
+    <code>
+        const person = { fname: "Steven", lname: "Barkley", age: 38 };<br>
+        let emptySentence = "";<br>
+        
+        for ( let x in person ) {<br>
+        if ( person[ x ] == 38 ) {<br>
+        emptySentence += "is " + person[ x ] + "."<br>
+        }<br>
+        else { emptySentence += person[ x ] + " " } <br>
+        
+        }<br>
+        document.getElementById( "forIn" ).innerHTML = emptySentence;<br>
+    </code>
+    <p>
+        The above code produces this....
+    </p>
+    <strong>
+        <p id="forIn"></p>
+    </strong>
+
+    <script>
+        const person = { fname: "Steven", lname: "Barkley", age: 38 };
+        let emptySentence = "";
+
+        for ( let x in person ) {
+            if ( person[ x ] == 38 ) {
+                emptySentence += "is " + person[ x ] + "."
+            }
+            else {
+                emptySentence += person[ x ] + " "
+            }
+
+        }
+        document.getElementById( "forIn" ).innerHTML = emptySentence;
+    </script>
+    <h2>For in Over Arrays</h2>
+    <p id="forArray"></p>
+    <script>
+        const numbers = [ 45, 4, 9, 16, 25 ];
+
+        let txt = "";
+        for ( let x in numbers ) {
+            txt += numbers[ x ] + ", "
+            document.getElementById( "forArray" ).innerHTML = txt;
+        }
+    </script>
+
+    <h2>For Each </h2>
+    <p id="forEach"></p>
+    <script>
+        numbers.forEach( myFunction );
+
+        function myFunction() {
+            return "Eat Butt!"
+        };
+
+        document.getElementById( "forEach" ).innerHTML = myFunction();
+    </script>
+
+    <script>
+        <h2>New Map Method()</h2>
+        // Create a Map
+
+        const fruits = new Map;
+    </script>
+    <p id="calcBill"></p>
+    <script>
+        const food = 200
+        const electric = 60
+        const rent = 1200
+        const gas = 240
+        const insurance = 167
+        const carLoan = 467
+        const leisure = 200
+
+        function calcBills( food, electric, rent, gas, insurance, carLoan, leisure ) {
+
+            let totalBills = 0;
+            totalBills = food + electric + rent + gas + insurance + carLoan + leisure;
+            return totalBills;
+        };
+        document.getElementById( "calcBill" ).innerHTML = calcBills( 200, 60, 1200, 240, 167, 467, 200 );
+    </script>
+</body>
+
+</html>
